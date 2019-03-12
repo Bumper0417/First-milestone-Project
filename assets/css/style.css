@@ -6,10 +6,14 @@
     background-image: url("../images/puppies.jpg");
 }
 
-.bg-color-three-reasons{
+.bg-color-two-reasons{
     background-color: #F4A460;
     color: #fff;
     
+}
+.bg-color-breed-info{
+    background-color: 	#DAA520;
+    color: #fff;
 }
 
 .ui-menu-color-aboutus {
@@ -203,4 +207,54 @@ footer{
 #footer-details{
     padding: 20px;
 }
+
+/*-----Two Reasons-----*/
+
+.two-reasons-icon {
+    font-size: 26px;
+    color:#2E8B57; 
+}
+.two-reasons-heading{
+    margin-bottom: 15px;
+}
+
+/*-------Breed Info*/
+
+.breed-info-item{
+    color: #fff;
+    margin-bottom: 20px;
+    display:block;
+    clear: both;
+}
+
+.breed-info-item key{
+    padding-right: 8px;
+    display: inline-block;
+}
+
+.breed-info-item key p{
+    color: #fff;
+    margin: 0;
+}
+
+/*--------Stats------*/
+
+
+
+
+.container {
+  width: 100%; 
+  background-color:	#DAA520; 
+}
+
+.skills {
+  text-align: right; 
+  padding: 10px; 
+  color: white; 
+}
+
+.energy {width: 90%; background-color:#4682B4;} /* Green */
+.size {width: 50%; background-color:#87CEFA;} /* Blue */
+.furtreatment {width: 40%; background-color:	#ADD8E6;} /* Red */
+.training {width: 65%; background-color:#00BFFF;} /* Dark Grey */
   

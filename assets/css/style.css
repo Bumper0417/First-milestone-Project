@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+/*------------colors Section-----*/
+
+.bg-color-name-title {
+    background-color: #A52A2A;
+    background-image: url("../images/puppies.jpg");
+}
+
+.bg-color-three-reasons{
+    background-color: #F4A460;
+    color: #fff;
+    
+}
+
+.ui-menu-color-aboutus {
+    background-color: #2E8B57;
+}
+
+.ui-menu-color-breedinfo {
+    background-color: #8FBC8F;
+}
+
+.ui-menu-color-becomeabreeder {
+    background-color: #9ACD32;
+}
+
+.ui-menu-color-seeourevents {
+    background-color: #00FA9A;
+}
+
+.ui-menu-color-contact {
+    background-color: #ADFF2F;
+}
+
+
+/*-----Paddings/Margins/text-----*/
+
+h1,
+h2,
+h3,
+h4 {
+   margin: 0; 
+}
+.uppercase{
+    text-transform: uppercase;
+}
+.general-hub{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
+    
+}
+.inline-block{
+    display: inline-block;
+}
+.row-table{
+    display: table;
+}
+.section-column{
+    display: table-cell;
+    padding:0 30px 30px;
+    float: none;
+}
+
+.section-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin: 25px;
+    margin-bottom: 40px;
+}
+    
+
+ /*-----Heading-----*/
+header {
+    margin: 0;
+}
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/staffie3.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 200;
+    font-size: 60px;
+    margin-top: 50px;
+    color: #9ACD32;
+}
+.name i {
+    color: #20B2AA;
+}
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #9ACD32;
+}
+
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+.menucontainer {
+    font-size: 0;
+}
+
+#nav {
+    margin: 0;
+}
+#nav li {
+    font-size: 14px;
+    padding: 0;
+}
+.menuitem {
+    height: 90px;
+    text-align: center;
+    padding: 0;
+}
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #fff;
+    height: 90px;
+}
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+
+
+/*-----Hover-----*/
+.hvr-sweep-to-bottom:bebore {
+    background: rgba(0. 0. 0. 0.2);
+    height: 90px;
+}
+
+ /*----Footer-----*/
+ 
+footer{
+    background-color: #A52A2A;
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
+}
+ 
+.images-jpg i{
+    font-size: 18px;
+    color: #fafafa;
+    text-align: center;
+    padding-left: 5px;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+.images-jpg i:hover{
+    color: #808000;
+}
+.social-links{
+    padding-bottom: 15px;
+ }
+.social-links li a i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color:	#A52A2A;
+    background-color:	#5F9EA0;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+     
+}
+.social-links li a i:hover{
+     background-color: #808000;
+}
+#footer-details{
+    padding: 20px;
+}
+  

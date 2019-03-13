@@ -7,12 +7,12 @@
 }
 
 .bg-color-two-reasons{
-    background-color: #F4A460;
+    background-color: #2E8B57;
     color: #fff;
     
 }
 .bg-color-breed-info{
-    background-color: 	#DAA520;
+    background-color:  #2E8B57;
     color: #fff;
 }
 .bg-color-becomeabreeder{
@@ -22,7 +22,11 @@
     background-color:#9ACD32 ;
 }
 .bg-color-contact{
-    background-color: #fff;
+    background-color:  #F4A460;
+}
+
+.bg-color-seeourphotos{
+    background-color: #00FA9A;
 }
 
 .ui-menu-color-aboutus {
@@ -42,7 +46,7 @@
 }
 
 .ui-menu-color-contact {
-    background-color: #ADFF2F;
+    background-color: #F4A460;
 }
 
 
@@ -254,7 +258,7 @@ footer{
 
 .container {
   width: 100%; 
-  background-color:	#DAA520; 
+  background-color: #2E8B57; 
 }
 
 .skills {

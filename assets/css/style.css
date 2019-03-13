@@ -299,8 +299,27 @@ footer{
 }
 .col-10 {
     color: #fafafa;
+    
 }
 
+.col-10 i{
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color:	#A52A2A;
+    background-color:	#5F9EA0;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
+
+.col-10 i:hover{
+     background-color: #FFF8DC;
+}
 /*--------Contact Form------*/
 
 .contact-heading{
@@ -318,12 +337,12 @@ footer{
     
 }
 
-button[type="submit"] {
+button[type="submit"]{ 
     margin-top: 15px;
     margin-bottom: 20px;
     color:#fafafa;
-    background-color: #4682B4;
-}
+    background-color: #4682B4;}
+
 
 /*--------Media Queries------*/
 
@@ -334,5 +353,8 @@ button[type="submit"] {
       margin:0 auto;
       max-width: 50%;
     }
-}    
-    
+}
+
+section{
+    margin: 0;
+}

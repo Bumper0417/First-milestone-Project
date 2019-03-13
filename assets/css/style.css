@@ -15,6 +15,12 @@
     background-color: 	#DAA520;
     color: #fff;
 }
+.bg-color-becomeabreeder{
+    background-color: #9ACD32;
+}
+.bg-color-seeourevents{
+    background-color: #00FA9A;
+}
 
 .ui-menu-color-aboutus {
     background-color: #2E8B57;
@@ -65,7 +71,8 @@ h4 {
     padding:0 30px 30px;
     float: none;
 }
-
+.seeourevents-heading,
+.becomeabreeder-heading,
 .section-heading{
     font-family: "Exo", sans-serif;
     font-weight: 300;
@@ -253,8 +260,42 @@ footer{
   color: white; 
 }
 
-.energy {width: 90%; background-color:#4682B4;} /* Green */
-.size {width: 50%; background-color:#87CEFA;} /* Blue */
-.furtreatment {width: 40%; background-color:	#ADD8E6;} /* Red */
-.training {width: 65%; background-color:#00BFFF;} /* Dark Grey */
+.energy {width: 90%; background-color:#4682B4;} 
+.size {width: 50%; background-color:#87CEFA;}
+.furtreatment {width: 40%; background-color:	#ADD8E6;}
+.training {width: 65%; background-color:#00BFFF;} 
+
+/*--------Progress Bar------*/
+
+.progress {
+    position: relative;
+    height: 25px;
+    margin-bottom: 4px;
+}
+
+.progress-type {
+    position: absolute;
+    left: 0px;
+    font-weight: 400;
+    padding: 3px 30px 2px 10px;
+    color: #fff;
+    
+}
+/* Become a Breeder section*/
+
+.becomeabreeder-heading{
+    color:#fafafa;
+}
+
+.col-12{
+    color: #fafafa;
+}
+
+.seeourevents-heading{
+    color: #fafafa;
+}
+.col-10 {
+    color: #fafafa;
+}
+    
   

@@ -19,7 +19,10 @@
     background-color: #9ACD32;
 }
 .bg-color-seeourevents{
-    background-color: #00FA9A;
+    background-color:#9ACD32 ;
+}
+.bg-color-contact{
+    background-color: #fff;
 }
 
 .ui-menu-color-aboutus {
@@ -133,7 +136,7 @@ header {
     padding: 0;
 }
 .menuitem {
-    height: 90px;
+    height: 120px;
     text-align: center;
     padding: 0;
 }
@@ -141,7 +144,7 @@ header {
     width: 100%;
     text-decoration: none;
     color: #fff;
-    height: 90px;
+    height: 120px;
 }
 .menuitem a i {
     padding-top: 22px;
@@ -165,7 +168,7 @@ header {
 /*-----Hover-----*/
 .hvr-sweep-to-bottom:bebore {
     background: rgba(0. 0. 0. 0.2);
-    height: 90px;
+    height: 120px;
 }
 
  /*----Footer-----*/
@@ -297,5 +300,39 @@ footer{
 .col-10 {
     color: #fafafa;
 }
+
+/*--------Contact Form------*/
+
+.contact-heading{
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
     
-  
+}
+
+.center-form{
+    padding-top: 10px;
+    margin:0 auto;
+    max-width: 70%;
+    
+}
+
+button[type="submit"] {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color:#fafafa;
+    background-color: #4682B4;
+}
+
+/*--------Media Queries------*/
+
+@media(min-width: 992px){
+    .center-form{
+      padding-top: 30px;
+      min-height: 240px;
+      margin:0 auto;
+      max-width: 50%;
+    }
+}    
+    

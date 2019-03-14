@@ -111,7 +111,7 @@ header {
     font-weight: 200;
     font-size: 60px;
     margin-top: 50px;
-    color: #9ACD32;
+    color:#FF1493;
 }
 .name i {
     color: #20B2AA;
@@ -122,8 +122,9 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #9ACD32;
+    color:#FF1493;
 }
+
 
 .list-inline-item:not(:last-child) {
     margin: 0;
@@ -169,10 +170,16 @@ header {
 }
 
 
+/*---Section-----*/
+
 /*-----Hover-----*/
-.hvr-sweep-to-bottom:bebore {
-    background: rgba(0. 0. 0. 0.2);
+.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
     height: 120px;
+}
+
+.hvr-sweep-to-top:before{
+    background:rgba(0, 0, 0, 0.2);
 }
 
  /*----Footer-----*/
@@ -263,7 +270,7 @@ footer{
 
 .skills {
   text-align: right; 
-  padding: 10px; 
+  padding: 10px;
   color: white; 
 }
 
@@ -359,6 +366,3 @@ button[type="submit"]{
     }
 }
 
-section{
-    margin: 0;
-}

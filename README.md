@@ -6,17 +6,25 @@ This is my Staffordshire Bull Terrier webpage to present to future fans and cust
 
 ## UX
 
-My first goal in the design of the webpage was to give to our users and potencial customers a friendly and easy access to information of the site by using an approaching minimal design.
-
-For potencial customers,i wanted to provide them an analytic section of our skills and who we are in the "About us" section with a simple user format and a friendly design.In addition to that i provided the "Contact Us" section for those who choose to.in the "Breed Info" and "Become a breeder" sections i provided the requirements for those who decide to breed a Staffordshire Bull Terrier using diagrams and skill bars as well as videos.Furthermore the "See our Events" section gives the opportunity to the users to participate in our Dog Shows and Become a Trainer sessions where they can develop their skills as a breeder.Links to my LinkedIn, Facebook,Twitter and Instagram profiles were also provided for their ease of contact.
+- As a user, I want the webpage to have a friendly and easy access through a simple design so that i can take all the information that i want from the site.
+- As a potencial customer i want to be able to get all the information about the owners of the webpage, their action and their experience regarding to Staffies and information about the breed.
+- As a future Breeder i want to be able to get all the tools that i want regarding breeding my own Staffordshire Bull Terrier,such as: 
+   1. Events that the owners of the Webpage Participate
+   2. Training sessions that they organize for their customers.
+- As a potencial customer,i want  to be able to see and download pictures of the owners Staffies and their available future litters. 
+- I want also,as a potencial customer and a user to be able to contact the owner of the webpage through a contact form.
+- Furthermore, as a future customer i want to be able to reach the owners of the webpage through their social links.
 
 ## Features
 
-This site uses the scrollSpy feature in Bootstrap in order to give a smooth scroll for the user and in order to make it easy to access every single part. In additon the appbar remains collapsed in all the screen type in order for the design to remain simple. In addition it uses animation features by hover for making it more interesting.
+- This site uses the dropdown menu container feature in Bootstrap,with a hover-sweep-to-bottom effect, in order to give a smooth scroll for the user and in order to make it easy to access every single part. 
+- In additon the user of the webpage is able to choose any of the four section of the webpage,in any order that they want, without having to reload the page.
+
 
 ## Features left to implement
 
-In the future i want to add more information and example videos from our Training sessions and our achievements and rewards from Dog Shows.
+- In the future i want to add more information and example videos from our Training sessions and our achievements and rewards from Dog Shows.
+- In addition i want my site to be accesible and more efficient using [Javascript](https://no.wikipedia.org/wiki/JavaScript) and [Back End](https://en.wikipedia.org/wiki/Back_end)
 
 ## Technologies Used
 
@@ -29,23 +37,29 @@ In the future i want to add more information and example videos from our Trainin
 
 ## Testing
 
-The potencial customers and fans user story achieved to provide them information about who we are,what are we doing and how they can reach us through the contact us form. the about us section provides information about who we are and what are we tending to achieve through this web site as well as our background, knowledge and skills.When visited in the desktop users have the opportunity to see our achievements and certifications in the background photo.They are also able to be informed about the breed through the "Breed Info" and the "Become a Breeder" sections and to view my social media profiles via clicking on the icons in the footer. 
-
-You can try this yourself by going to "Contact Us" form:
+- The potencial customers,users and fans user stories, achieved to provide them information about who we are,what are we doing and how they can reach us through the contact us form. 
+- The 'About us' section provides information about who we are and the reasons to visit this webpage, as well as our background,knowledge, skills and Staffies 'Breed Info'.
+- For our Future Breeders they are able to get all the tools that they want regarding breeding their own Staffordshire Bull Terrier in the "Become a Breeder" section which consist ifnormation about what it takes to become a Breeder and two sections with videos about our Training sessions and Dog Shows.
+- Our future Breeders can also have a look to our breeding Staffies photos through the 'See our Photos' section were they can also download the images in a separate tab.
+-For the users of the Webpage that want to contact us,they can do it easily through our social links on the bottom of the page in the Footer and they can also do it through our contact page.You can check it yourself:
 1. Go to the "Contact Us" page
 1. Try to submit the empty form and verify that an error message about the required fields appears
 1. Try to submit the form with an invalid email address and verify that a relevant error message appears
-1. Try to submit the form with all inputs valid and verify that a success message appears.
+1. Try to submit the form with all inputs valid and verify that the webpage will reload.
 
-As they have been manually tested, all the links will open in a new tab using 'target="_blank"'.Also when links of the appbar are pressed they will work even though you do not view them in the same order as they are in the dropdown menu.
+As they have been manually tested, all the links will open in a new tab using 'target="_blank"'.Also when links of the containers in the dropdown-menu are pressed they will work even though you do not view them in the same order as they are in the dropdown menu.In addition videos and photos will open to a new section as to save the webpage for overloading and minimise the data.
 
 The site is tested in a variety of devices such as:Iphones(4 to 8),Samsung Galaxy,Ipads and Desktops.In addition it's tested to all the possible browsers:Chrome, Safari, Internet Explorer, FireFox and i assure that it is compatible and responsive.
 
-The biggest problem that i faced was that difficulty of my laptop to achieve commit in git, but i overpassed it with new commands and the assistance of the webpage.
+The biggest problem that i faced was that difficulty of my webpage to be displayed properly in Ipads and Ipads Pro which i overpassed by providing more space,margins and paddings.
 
 ## Deployment
 
-This site is hosted using GitHub pages, deployed directly from the master branch.
+This site is hosted using GitHub pages, deployed directly from the master branch.The webpage is consisted of 4 html documents, an assets folder and a README.md file.The assets folder includes 3smaler folders:
+- CSS with a style.css document.
+- Images with 4 jpg files of the images i used for the webpage.
+- Wireframes with 5 jpg images of my Design.
+ 
 
 
 

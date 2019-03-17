@@ -58,6 +58,7 @@ This site is hosted using GitHub pages, deployed directly from the master branch
 - CSS with a style.css document.
 - Images with 4 jpg files of the images i used for the webpage.
 - Wireframes with 5 jpg images of my Design.
+- Videos with 2 mp4 files of training sessions and dog shows.
  
 
 

@@ -26,7 +26,7 @@ As a user, I want the webpage to have a friendly and easy access through a simpl
 - In addition i want my site to be accesible and more efficient using [Javascript](https://no.wikipedia.org/wiki/JavaScript) and [Back End](https://en.wikipedia.org/wiki/Back_end)
 
 ## Technologies Used
-- [Balsamiq](https://balsamiq.cloud/su4533x/pszdby4/r4F20)
+- [Balsamiq](https://balsamiq.cloud/su4533x/pszdby4/r4F20) to create the mockups for my project.
 - [HTML](https://no.wikipedia.org/wiki/HTML) used to implement the code for the website.
 - [CSS](https://no.wikipedia.org/wiki/Cascading_Style_Sheets) used to style the website.
 - [Bootstrap](https://no.wikipedia.org/wiki/Bootstrapping) used to simplify the design and make it easy to access.
